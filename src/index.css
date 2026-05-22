@@ -284,3 +284,30 @@ input {
   color: white;
   box-shadow: 0 0 22px rgba(34, 211, 238, 0.14);
 }
+
+.collatz-button {
+  display: inline-flex;
+  min-height: 2.6rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(15, 23, 42, 0.5);
+  color: rgb(226 232 240);
+  font-size: 0.82rem;
+  transition: 180ms ease;
+}
+
+.collatz-button:hover,
+.collatz-button.is-active {
+  border-color: rgba(251, 146, 60, 0.5);
+  background: rgba(251, 146, 60, 0.13);
+  color: white;
+  box-shadow: 0 0 24px rgba(251, 146, 60, 0.15);
+}
+
+.collatz-button.is-hot {
+  border-color: rgba(251, 146, 60, 0.42);
+  background: rgba(251, 146, 60, 0.18);
+}
