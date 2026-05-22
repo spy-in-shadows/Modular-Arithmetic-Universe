@@ -262,3 +262,25 @@ input {
   border-color: rgba(250, 204, 21, 0.4);
   background: rgba(250, 204, 21, 0.16);
 }
+
+.random-button {
+  display: inline-flex;
+  min-height: 2.6rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(15, 23, 42, 0.5);
+  color: rgb(226 232 240);
+  font-size: 0.82rem;
+  transition: 180ms ease;
+}
+
+.random-button:hover,
+.random-button.is-active {
+  border-color: rgba(103, 232, 249, 0.48);
+  background: rgba(34, 211, 238, 0.12);
+  color: white;
+  box-shadow: 0 0 22px rgba(34, 211, 238, 0.14);
+}
